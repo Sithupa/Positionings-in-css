@@ -1,0 +1,23 @@
+.parent{
+    position: sticky;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    height: 800vh;
+    background-image: linear-gradient(to bottom,lightblue,green);
+    border: 2px solid black;
+}
+.child{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 50%;
+    height: 300vh;
+    justify-self: center;
+    text-align: center;
+    background-color: white;
+    border: 2px solid red;
+}
+h1{
+    text-align: center;
+}
